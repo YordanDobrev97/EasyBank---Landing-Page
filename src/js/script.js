@@ -1,16 +1,13 @@
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav');
+const image = document.querySelector('.fa-bars');
 
 hamburger.addEventListener('click', () => {
     if (!nav.classList.contains('show')) {
-        document.querySelector('.fa-bars').style.display = 'none';
-        const closeIcon = document.createElement('icon');
-        closeIcon.className = 'fas fa-times';
-        hamburger.appendChild(closeIcon);
         nav.classList.toggle('show');
+        image.src = '../images/icon-close.svg';
     } else {
-        document.querySelector('.fa-bars').style.display = 'block';
-        document.querySelector('.fa-times').remove();
         nav.classList.remove('show');
+        image.src = '../images/icon-hamburger.svg';
     }
 })
