@@ -1,30 +1,75 @@
 
-.navigation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-
-    .logo {
-        width: 200px;
-        height: 19.7px;
-    }
-
-    .nav {
+.header {
+    .navigation {
         display: flex;
         justify-content: space-around;
-
-        .nav__item {
-            list-style-type: none;
-            margin: 10px 18px;
+        align-items: center;
+        height: 80px;
+        
+        .logo {
+            width: 200px;
+            height: 19.7px;
+        }
+    
+        .nav {
+            display: flex;
+            justify-content: space-around;
+    
+            .nav__item {
+                list-style-type: none;
+                margin: 10px 18px;
+            }
+        }
+    
+        .hamburger {
+            display: none;
         }
     }
 
-    .hamburger {
-        display: none;
+    .banking__container {
+        margin: 100px;
+
+        .digital__banking {
+            .banking__title{
+                width: 400px;
+                color: #2D314D;
+                font-size: 46px;
+            }
+
+            .banking__description {
+                font-size: 18px;
+                width: 447px;
+                margin: 20px 5px;
+                color: #9597A5;
+            }
+        }
+
+        .image__container {
+            position: relative;
+            height: 800px;
+            overflow: hidden;
+            top: -22em;
+            right: -90px;
+
+            .image__mockups {
+                top: -6em;
+                left: 42em;
+                position: absolute;
+                width: 46%;
+            }
+
+            .bg__intro {
+                width: 82%;
+                position: absolute;
+                right: -185px;
+                top: -166px;
+                z-index: -2;
+            }
+            
+        }
     }
 
-    .invite-btn {
+    .invite__btn {
         background: linear-gradient(#33D35E, #2AB6D9);
         padding: 12px 30px;
         border-radius: 20px;
@@ -35,7 +80,8 @@
 @media only screen and (max-width: 375px) {
     .header {
         .navigation {
-            .nav, .invite-btn {
+            width: 100vh;
+            .nav, .invite__btn {
                 display: none;
             }
 
@@ -44,14 +90,66 @@
                 position: absolute;
                 top: 75px;
                 background: #ffffff;
-                width: 80%;
+                width: 142%;
                 text-align: center;
+            }
+
+            .nav__item {
+                font-size: 26px;
             }
 
             .hamburger {
                 display: block;
                 border: 0;
                 background: transparent;
+            }
+        }
+
+        .banking__container {
+            margin: 50px;
+
+            .digital__banking  {
+                margin-top: 35em;
+
+                .banking__title {
+                    text-align: center;
+                }
+
+                .banking__description {
+                    font-size: 24px;
+                    width: 455px;
+                    text-align: center;
+                }
+
+                .invite__btn {
+                    width: 260px;
+                    margin: 20px 100px;
+                    font-size: 24px;
+                }
+            }
+
+            .image__container {
+                position: absolute;
+                left: 0;
+                top: 93px;
+                width: 34em;
+                z-index: -1;
+                overflow: hidden;
+
+                .image__mockups {
+                    top: -179px;
+                    left: 0px;
+                    position: absolute;
+                    width: 100%;
+                }
+
+                .bg__intro {
+                    width: 51em;
+                    position: absolute;
+                    right: -169px;
+                    top: -211px;
+                    z-index: -2;
+                }
             }
         }
     }
