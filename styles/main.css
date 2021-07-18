@@ -1,2 +1,77 @@
+.main__wrapper .easybank__container {
+  background: #F4F5F7;
+  height: 60vh;
+}
+.main__wrapper .easybank__container .easybank {
+  margin: -90px 105px;
+}
+.main__wrapper .easybank__container .easybank .easybank__title {
+  color: #2D314D;
+  position: relative;
+  top: 50px;
+  font-size: 28px;
+}
+.main__wrapper .easybank__container .easybank .easybank__description {
+  position: relative;
+  top: 58px;
+  max-width: 66%;
+  font-size: 24px;
+  color: #9597A5;
+}
+.main__wrapper .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -190px 100px;
+}
+.main__wrapper .services .service {
+  margin: 3px 20px;
+}
+.main__wrapper .services .service .service__title {
+  margin: 10px 3px;
+}
+.main__wrapper .services .service .service__description {
+  min-width: 17em;
+}
 
-/*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
+@media (max-width: 600px) {
+  .main__wrapper .easybank__container {
+    margin-top: 60em;
+    width: 50em;
+    height: 150em;
+  }
+  .main__wrapper .easybank__container .easybank .easybank__title {
+    font-size: 43px;
+    text-align: center;
+  }
+  .main__wrapper .easybank__container .easybank .easybank__description {
+    font-size: 37px;
+    min-width: 18em;
+  }
+  .main__wrapper .services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: -125em 200px;
+  }
+  .main__wrapper .services .service {
+    margin: 38px 30px;
+  }
+  .main__wrapper .services .service .service__image {
+    width: 9em;
+    position: relative;
+    left: 10em;
+  }
+  .main__wrapper .services .service .service__title {
+    font-size: 38px;
+    width: 13em;
+    text-align: center;
+  }
+  .main__wrapper .services .service .service__description {
+    font-size: 35px;
+    text-align: center;
+    min-width: 14em;
+    margin: 25px auto;
+  }
+}/*# sourceMappingURL=main.css.map */
