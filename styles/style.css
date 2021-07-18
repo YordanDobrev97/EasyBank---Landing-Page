@@ -169,10 +169,11 @@ body {
 }
 .main__wrapper .easybank__container {
   background: #F4F5F7;
-  height: 60vh;
+  height: 75vh;
+  margin-top: -12em;
 }
 .main__wrapper .easybank__container .easybank {
-  margin: -90px 105px;
+  margin: 90px;
 }
 .main__wrapper .easybank__container .easybank .easybank__title {
   color: #2D314D;
@@ -187,27 +188,32 @@ body {
   font-size: 24px;
   color: #9597A5;
 }
-.main__wrapper .services {
+.main__wrapper .easybank__container .services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: -190px 100px;
+  max-width: 78em;
+  margin: auto;
 }
-.main__wrapper .services .service {
-  margin: 3px 20px;
+.main__wrapper .easybank__container .services .service {
+  margin: 40px 30px;
 }
-.main__wrapper .services .service .service__title {
-  margin: 10px 3px;
+.main__wrapper .easybank__container .services .service .service__title {
+  position: relative;
+  top: 13px;
+  width: 10em;
 }
-.main__wrapper .services .service .service__description {
-  min-width: 17em;
+.main__wrapper .easybank__container .services .service .service__description {
+  position: relative;
+  top: 28px;
+  max-width: 20em;
 }
 
 @media (max-width: 600px) {
   .main__wrapper .easybank__container {
-    margin-top: 60em;
+    margin-top: 55em;
     width: 50em;
-    height: 150em;
+    height: 160em;
   }
   .main__wrapper .easybank__container .easybank .easybank__title {
     font-size: 43px;
@@ -217,27 +223,28 @@ body {
     font-size: 37px;
     min-width: 18em;
   }
-  .main__wrapper .services {
+  .main__wrapper .easybank__container .services {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: -125em 200px;
+    margin-top: 10em;
   }
-  .main__wrapper .services .service {
-    margin: 38px 30px;
+  .main__wrapper .easybank__container .services .service {
+    margin: 40px auto;
+    width: 450px;
   }
-  .main__wrapper .services .service .service__image {
+  .main__wrapper .easybank__container .services .service .service__image {
     width: 9em;
     position: relative;
     left: 10em;
   }
-  .main__wrapper .services .service .service__title {
+  .main__wrapper .easybank__container .services .service .service__title {
     font-size: 38px;
     width: 13em;
     text-align: center;
   }
-  .main__wrapper .services .service .service__description {
+  .main__wrapper .easybank__container .services .service .service__description {
     font-size: 35px;
     text-align: center;
     min-width: 14em;
