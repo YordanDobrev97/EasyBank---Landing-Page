@@ -19,6 +19,13 @@ body {
     overflow-x: hidden;
 }
 
+.invite__btn {
+    background: linear-gradient(#33D35E, #2AB6D9);
+    padding: 12px 30px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
 @import './header.scss';
 @import './main.scss';
 @import './footer.scss';

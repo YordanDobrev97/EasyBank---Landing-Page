@@ -1,0 +1,115 @@
+
+.footer__wrapper {
+    background-color: #2D314D;
+    height: 191px;
+
+    .container {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        position: relative;
+        top: 50px;
+
+        .media__container {
+            margin-right: 30px;
+            margin-left: -70px;
+
+            .logo__container {
+                img {
+                    background: white;
+                }
+            }
+        }
+
+        .social__networks {
+            display: flex;
+
+            .wrapper__network {
+                margin: 12px;
+            }
+        }
+
+        .navigation__container {
+            ul {
+                display: flex;
+                align-items: baseline;
+
+                div {
+                    margin: 20px;
+
+                    li {
+                        min-width: 6em;
+                        color: white;
+                        list-style: none;
+                    }
+                }
+            }
+        }
+
+        .easybank__fother {
+            position: relative;
+            right: -20em;
+
+            p {
+                color: white;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__wrapper {
+        width: 50.6em;
+        height: 44em;
+        overflow-x: hidden;
+
+        .container {
+            flex-direction: column;
+
+            .media__container {
+                margin-left: 165px;
+
+                .logo__container {
+                    img {
+                        width: 17em;
+                        height: 3em;
+                    }
+                }
+
+                .social__networks {
+                    .wrapper__network {
+                        img {
+                            min-width: 39px;
+                        }
+                    }
+                }
+            }
+
+            .navigation__container {
+                ul {
+                    flex-direction: column;
+                    margin: auto;
+                    width: 200px;
+
+                    li {
+                        font-size: 42px;
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+
+            .easybank__fother {
+                right: -11em;
+                button {
+                    font-size: 32px;
+                }
+
+                p {
+                    font-size: 38px;
+                    margin-left: -90px;
+                    margin-top: 22px;
+                }
+            }
+        }
+    }   
+}

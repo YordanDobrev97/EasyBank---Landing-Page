@@ -1,2 +1,98 @@
+.footer__wrapper {
+  background-color: #2D314D;
+  height: 191px;
+}
+.footer__wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+.footer__wrapper .container .media__container {
+  margin-right: 30px;
+  margin-left: -70px;
+}
+.footer__wrapper .container .media__container .logo__container img {
+  background: white;
+}
+.footer__wrapper .container .social__networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__wrapper .container .social__networks .wrapper__network {
+  margin: 12px;
+}
+.footer__wrapper .container .navigation__container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.footer__wrapper .container .navigation__container ul div {
+  margin: 20px;
+}
+.footer__wrapper .container .navigation__container ul div li {
+  min-width: 6em;
+  color: white;
+  list-style: none;
+}
+.footer__wrapper .container .easybank__fother {
+  position: relative;
+  right: -20em;
+}
+.footer__wrapper .container .easybank__fother p {
+  color: white;
+}
 
-/*# sourceMappingURL=footer.css.map *//*# sourceMappingURL=footer.css.map */
+@media (max-width: 600px) {
+  .footer__wrapper {
+    width: 50.6em;
+    height: 44em;
+    overflow-x: hidden;
+  }
+  .footer__wrapper .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__wrapper .container .media__container {
+    margin-left: 165px;
+  }
+  .footer__wrapper .container .media__container .logo__container img {
+    width: 17em;
+    height: 3em;
+  }
+  .footer__wrapper .container .media__container .social__networks .wrapper__network img {
+    min-width: 39px;
+  }
+  .footer__wrapper .container .navigation__container ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    width: 200px;
+  }
+  .footer__wrapper .container .navigation__container ul li {
+    font-size: 42px;
+    margin-bottom: 12px;
+  }
+  .footer__wrapper .container .easybank__fother {
+    right: -11em;
+  }
+  .footer__wrapper .container .easybank__fother button {
+    font-size: 32px;
+  }
+  .footer__wrapper .container .easybank__fother p {
+    font-size: 38px;
+    margin-left: -90px;
+    margin-top: 22px;
+  }
+}/*# sourceMappingURL=footer.css.map */
