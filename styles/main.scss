@@ -77,6 +77,7 @@ $font-public-sans: 'Public Sans', sans-serif;
             .article {
                 margin: 15px;
                 background: $white-color;
+                cursor: pointer;
 
                 .article__image {
                     width: 255px;

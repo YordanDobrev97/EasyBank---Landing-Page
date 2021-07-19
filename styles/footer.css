@@ -16,7 +16,7 @@
   margin-left: -70px;
 }
 .footer__wrapper .container .media__container .logo__container img {
-  background: white;
+  background: #FFFFFF;
 }
 .footer__wrapper .container .social__networks {
   display: -webkit-box;
@@ -25,6 +25,7 @@
 }
 .footer__wrapper .container .social__networks .wrapper__network {
   margin: 12px;
+  cursor: pointer;
 }
 .footer__wrapper .container .navigation__container ul {
   display: -webkit-box;
@@ -39,15 +40,16 @@
 }
 .footer__wrapper .container .navigation__container ul div li {
   min-width: 6em;
-  color: white;
+  color: #FFFFFF;
   list-style: none;
+  cursor: pointer;
 }
 .footer__wrapper .container .easybank__fother {
   position: relative;
   right: -20em;
 }
 .footer__wrapper .container .easybank__fother p {
-  color: white;
+  color: #FFFFFF;
 }
 
 @media (max-width: 600px) {

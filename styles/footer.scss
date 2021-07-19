@@ -1,4 +1,5 @@
 
+$white-color: #FFFFFF;
 .footer__wrapper {
     background-color: #2D314D;
     height: 191px;
@@ -16,7 +17,7 @@
 
             .logo__container {
                 img {
-                    background: white;
+                    background: $white-color;
                 }
             }
         }
@@ -26,6 +27,7 @@
 
             .wrapper__network {
                 margin: 12px;
+                cursor: pointer;
             }
         }
 
@@ -39,8 +41,9 @@
 
                     li {
                         min-width: 6em;
-                        color: white;
+                        color: $white-color;
                         list-style: none;
+                        cursor: pointer;
                     }
                 }
             }
@@ -51,7 +54,7 @@
             right: -20em;
 
             p {
-                color: white;
+                color: $white-color;
             }
         }
     }

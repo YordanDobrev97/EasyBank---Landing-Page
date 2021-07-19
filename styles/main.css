@@ -65,6 +65,7 @@
 .main__wrapper .latest__articles .article__container .article {
   margin: 15px;
   background: #FFFFFF;
+  cursor: pointer;
 }
 .main__wrapper .latest__articles .article__container .article .article__image {
   width: 255px;
